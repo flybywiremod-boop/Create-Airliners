@@ -26,13 +26,13 @@ public class CreateAirliners {
         // For later
         CASoundEvents.register();
 
-        CAItems();
-        CABlocks();
-        CAFluids();
-        CAEntityTypes();
-        CABlockEntityTypes();
-        CAPackets();
-        CAConfigs();
+        CAItems.register();
+        CABlocks.register();
+        CAFluids.register();
+        CAEntityTypes.register();
+        CABlockEntityTypes.register();
+        CAPackets.register();
+        CAConfigs.register();
 
         modEventBus.addListener(CASoundEvents::register);
     }

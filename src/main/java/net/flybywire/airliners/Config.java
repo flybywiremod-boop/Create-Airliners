@@ -1,4 +1,4 @@
-package net.flybywire.airliner;
+package net.flybywire.airliners;
 
 import java.util.List;
 
